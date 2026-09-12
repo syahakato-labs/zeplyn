@@ -1,0 +1,9 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+allowBuilds:
+  unrs-resolver: false
+overrides:
+  typescript: '^6.0.3'
+  '@types/node': '^22.20.2'
+  eslint: '^10.10.0'

@@ -1,0 +1,20 @@
+{
+  "name": "@zeplyn/monorepo",
+  "version": "0.0.0",
+  "description": "A modern framework for building maintainable Discord applications with discord.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lint": "turbo run lint",
+    "format": "prettier --write . --ignore-path .prettierignore"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@zeplyn/internals": "workspace:^",
+    "eslint": "^10.10.0",
+    "prettier": "^3.9.6",
+    "turbo": "^2.10.12",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@11.22.0"
+}
