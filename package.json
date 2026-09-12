@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "turbo run lint",
-    "format": "prettier --write . --ignore-path .prettierignore"
+    "format": "prettier --write . --ignore-path .prettierignore",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^22.20.2",
