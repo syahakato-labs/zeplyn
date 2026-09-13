@@ -2,6 +2,7 @@ packages:
   - 'packages/*'
   - 'apps/*'
 allowBuilds:
+  '@parcel/watcher': false
   unrs-resolver: false
 overrides:
   typescript: '^6.0.3'
